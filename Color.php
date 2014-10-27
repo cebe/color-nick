@@ -39,6 +39,10 @@ class Color
 			$blu *= 0.75;
 		}
 
-		return dechex($red) . dechex($grn) . dechex($blu);
+		$rgb = [dechex($red),dechex($grn),dechex($blu)];
+
+	        return (strlen($rgb[0])<2? $rgb[0] . $rgb[0] : $rgb[0])
+	        . (strlen($rgb[1])<2? $rgb[1] . $rgb[1] : $rgb[1])
+	        . (strlen($rgb[2])<2? $rgb[2] . $rgb[2] : $rgb[2]);
 	}
 }
