@@ -30,7 +30,7 @@ class Color
 
 		// fix contrast by multiplying
 		$colors = ['red', 'grn', 'blue'];
-		$var = $colors[hexdec($hash[6])];
+		$var = $colors[hexdec($hash[6])%3];
 		if ($avg < 100) {
 			${$var} = max(${$var} * 1.337, 255);
 		} elseif ($avg > 200) {
