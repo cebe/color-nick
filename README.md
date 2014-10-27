@@ -6,6 +6,9 @@ Each color is unique to the name so each name keeps its color regardless of the 
 or whatever circumstances. This is done using a `sha1` hash on the name and taking the first 7
 characters in it hex representation to calculate the color.
 
+[![Latest Stable Version](https://poser.pugx.org/cebe/color-nick/v/stable.png)](https://packagist.org/packages/cebe/color-nick)
+[![Total Downloads](https://poser.pugx.org/cebe/color-nick/downloads.png)](https://packagist.org/packages/cebe/color-nick)
+
 Requirements
 ------------
 
