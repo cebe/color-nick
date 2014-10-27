@@ -13,7 +13,7 @@ Installation
 
 Using [Composer](http://getcomposer.org):
 
-    composer require cebe/pulse-php-discover
+    composer require cebe/color-nick
 
 Usage
 -----

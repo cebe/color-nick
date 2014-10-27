@@ -1,0 +1,29 @@
+{
+	"name": "cebe/color-nick",
+	"description": "A simple PHP lib that can color nick names to make them distinguishable in a chat room.",
+	"keywords": ["color", "nick", "chat", "string", "colorize"],
+	"homepage": "https://github.com/cebe/color-nick#readme",
+	"type": "library",
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "Carsten Brandt",
+			"email": "mail@cebe.cc",
+			"homepage": "http://cebe.cc/",
+			"role": "Creator"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/cebe/color-nick/issues",
+		"source": "https://github.com/cebe/color-nick"
+	},
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"fzaninotto/faker": "~1.4.0"
+	},
+	"autoload": {
+		"psr-4": {"cebe\\colornick\\": ""}
+	}
+}
